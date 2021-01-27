@@ -1,0 +1,367 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat";
+}
+
+/* Navigation Bar */
+
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+nav ul {
+  font-weight: 600;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: left;
+  padding-left: 50px;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #000;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.activelink:active {
+  color: #9bddaf !important;
+}
+.activelink:focus {
+  color: #9bddaf !important;
+}
+.activelink:hover {
+  color: #61c77f !important;
+}
+
+/* First Section */
+.intro {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: url(desat.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*text-align: center;*/
+  padding: 0 20px;
+}
+
+.wrapper-1 {
+  padding-right: 800px;
+}
+
+.h-text-1 {
+  font-size: 3.4rem;
+  font-weight: 800;
+  color: white;
+}
+
+.h-text-2 {
+  color: rgb(192, 221, 198);
+}
+
+.h-text-3 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #c4c4c4;
+  max-width: 600px;
+  word-wrap: break-word;
+}
+
+.h-button {
+  background-color: #202421;
+  border-color: #61c77f;
+  border-width: 2px;
+}
+
+.h-button:hover {
+  background-color: rgb(90, 90, 90);
+  color: rgb(255, 255, 255);
+  border-color: #61c77f;
+  transition: all 0.4s ease 0s;
+}
+
+.modalbutton {
+  background-color: #202421;
+  border-color: #202421;
+  border-width: 2px;
+}
+
+.modalbutton:hover {
+  background-color: rgb(90, 90, 90);
+  color: rgb(255, 255, 255);
+  border-color: #61c77f;
+  border-width: 2px;
+  transition: all 0.4s ease 0s;
+}
+
+.buttonstyle:active {
+  color: white;
+}
+
+.btn:focus {
+  background: #878885 !important;
+  outline: none;
+  box-shadow: none !important;
+  border-color: #61c77f !important;
+}
+
+.btn:active {
+  background: #878885 !important;
+  outline: none;
+  box-shadow: none !important;
+  border-color: #61c77f !important;
+}
+
+/* Second Section */
+.aboutme {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #454545;
+}
+
+.aboutmetext {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 5px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.horline1 {
+  width: 400px;
+  border: 1px solid;
+  color: #454545;
+  background-color: #454545;
+}
+
+.horline2 {
+  width: 400px;
+  border: 1px solid;
+  color: #454545;
+  background-color: #454545;
+  margin: 0px;
+}
+
+.imgsize {
+  height: 150px;
+  width: 150px;
+}
+
+/* Third Section */
+#content {
+  margin: 4em auto;
+  display: flex;
+  width: 90%;
+  line-height: 25px;
+}
+
+#content .box {
+  text-align: center;
+}
+
+.content-header {
+  text-align: center;
+  justify-content: center;
+}
+
+.firstsec {
+  background-color: #454545;
+}
+
+.secondsec {
+  border: 5px solid black;
+  padding-bottom: 30%;
+}
+
+.thirdsec {
+  border: 5px solid black;
+}
+
+.fourthsec {
+  border: 5px solid black;
+}
+
+.fifthsec {
+  background-color: #102f37;
+}
+
+.contactit {
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  background-color: #c9c9c9;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #ffffff;
+  color: rgb(34, 34, 34);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #ffffff;
+}
+
+input[type="text"] {
+  background-color: #c9c9c9;
+}
+
+/* Add a background color and some padding around the form */
+.containere {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(24, 24, 24);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #1f1f1f;
+  padding: 20px;
+}
+
+.socialMediaLinks a {
+  background: #ffc0c0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+.icon-background {
+  color: rgb(255, 255, 255);
+}
+
+.yeet {
+  background-color: #1f1f1f;
+}
+
+.fab,
+.fas {
+  color: rgb(0, 0, 0);
+}
+
+.fab:hover,
+.fas:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.card-title {
+  font-weight: 600;
+}
+.card-text {
+  font-weight: 500;
+  font-style: italic;
+  color: #454545;
+}
+
+.textarena {
+  height: 150px;
+}
+
+.modal-title {
+  font-size: 30px;
+}
+.footer {
+  color: white;
+  padding: 14px;
+  background-color: black;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  #content {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .containerbro {
+    padding-right: 0px;
+  }
+  .wrapper-1 {
+    padding-right: 0px;
+  }
+  .intro {
+    text-align: center;
+  }
+  nav ul {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
