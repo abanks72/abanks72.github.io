@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Button, Container, Row, Card, CardTitle, CardText } from 'reactstrap';
+import { Button, Container, Row, Card, CardText } from 'reactstrap';
 
 
 function Profile() {

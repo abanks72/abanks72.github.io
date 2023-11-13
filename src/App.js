@@ -7,6 +7,8 @@ import { Container, Navbar, Nav, Button, Row, NavbarToggler, Collapse } from 're
 import Home from './Home';
 import Profile from './Profile';
 import Portfolio from './Portfolio';
+import CustomNav from './CustomNav';
+
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +21,7 @@ function App() {
     <Router>
       <Container fluid className='app-wrapper'>
         <Row className='first-row'>
+          <CustomNav />
           <Navbar light expand='md'>
             <Container>
               <NavbarToggler onClick={toggleNavbar} style={{ borderColor: 'white' }} />
