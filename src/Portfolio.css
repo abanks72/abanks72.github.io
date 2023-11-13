@@ -1,0 +1,30 @@
+.portfolio-wrapper {
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+
+.portfolio-wrapper .custom-button {
+  background: #202433;
+  font-weight: 300;
+  color: #b9b9b9;
+  text-align: center;
+  width: 200px;
+  margin-top: 20px;
+  border: 2px solid #ca3435;
+  border-radius: 0px;
+  transition: color 0.3s; /* Smooth color change on hover */
+}
+
+.portfolio-wrapper .custom-button:hover {
+  background: #202433;
+  border: 2px solid #9f2f33;
+  color: #9f2f33;
+}
+
+.card {
+  border-radius: 0px;
+  background-color: #16161d;
+  border: 3px solid #222233;
+  margin-bottom: 50px;
+}

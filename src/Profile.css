@@ -1,0 +1,19 @@
+.profile-wrapper .custom-button {
+    background: #202433;
+    color: white;
+    text-align: center;
+    width: 150px;
+    border-radius: 0px;
+    transition: color 0.3s; /* Smooth color change on hover */
+  }
+  
+.profile-wrapper .custom-button:hover {
+    background: #202433;
+    border: #9f2f33;
+    margin-top: 450px;
+    color: #9f2f33;
+  }
+
+.link-text {
+  color: red;
+}
