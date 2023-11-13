@@ -17,3 +17,51 @@
 .link-text {
   color: red;
 }
+
+/* Logical Responsive Breakpoints */
+@media (max-width: 1200px) {
+  .profile-wrapper .custom-button {
+    width: 120px; /* Adjust button width for medium screens */
+  }
+
+  .profile-wrapper .custom-button:hover {
+    margin-top: 400px; /* Adjust margin for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .profile-wrapper .custom-button {
+    width: 100px; /* Adjust button width for smaller medium screens */
+  }
+
+  .profile-wrapper .custom-button:hover {
+    margin-top: 350px; /* Adjust margin for smaller medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-wrapper .custom-button {
+    width: 80px; /* Adjust button width for smaller screens */
+  }
+
+  .profile-wrapper .custom-button:hover {
+    margin-top: 300px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-wrapper .custom-button {
+    width: 100%; /* Full width for small screens */
+    margin-top: 20px; /* Adjust margin for small screens */
+  }
+
+  .profile-wrapper .custom-button:hover {
+    margin-top: 20px; /* Adjust margin for small screens */
+  }
+}
+
+@media (max-width: 400px) {
+  .profile-wrapper .custom-button:hover {
+    margin-top: 10px; /* Further adjust margin for very small screens */
+  }
+}

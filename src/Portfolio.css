@@ -28,3 +28,45 @@
   border: 3px solid #222233;
   margin-bottom: 50px;
 }
+
+
+/* Logical Responsive Breakpoints */
+@media (max-width: 1200px) {
+  .portfolio-wrapper .custom-button {
+    width: 180px; /* Adjust button width for medium screens */
+  }
+
+  .card {
+    margin-bottom: 40px; /* Adjust margin for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .portfolio-wrapper .custom-button {
+    width: 160px; /* Adjust button width for smaller medium screens */
+  }
+
+  .card {
+    margin-bottom: 30px; /* Adjust margin for smaller medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-wrapper .custom-button {
+    width: 140px; /* Adjust button width for smaller screens */
+  }
+
+  .card {
+    margin-bottom: 20px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .portfolio-wrapper .custom-button {
+    width: 120px; /* Adjust button width for even smaller screens */
+  }
+
+  .card {
+    margin-bottom: 10px; /* Adjust margin for even smaller screens */
+  }
+}

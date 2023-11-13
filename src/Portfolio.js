@@ -28,9 +28,11 @@ function Portfolio() {
             This React and Firebase-based web application enables users to register, log in, and select a city to engage in location-specific chat.<br></br>
             Technologies: <code>React, Reactstrap/Bootstrap HTML, CSS, JavaScript, Firebase/Firestore(NoSQL), Node.js, npm, Git/Github</code><br></br>
           </CardText>
+          <a href="https://github.com/abanks72/geochat" target="_blank" rel="noopener noreferrer">
           <Button className='custom-button'>
            VIEW REPO
           </Button>
+          </a>
         </Card>
       </Row>
       <Row>
@@ -42,9 +44,11 @@ function Portfolio() {
             This Flask web app enables users to explore philosopher influence networks through a user interface and a JSON API, facilitating the study of historical philosophical connections.<br></br>      
             Technologies: <code>Flask, Python, HTML/Jinja2, JSON, Heroku, NetworkX, SQLite, Plotly, Git/Github</code><br></br>
           </CardText>
+          <a href="https://github.com/abanks72/philonet" target="_blank" rel="noopener noreferrer">
           <Button className='custom-button'>
             VIEW REPO
           </Button>
+          </a>
         </Card>
       </Row>
       </Container>

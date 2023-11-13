@@ -23,7 +23,7 @@
   margin-right: 10px;
   border: 1px solid #ca3435;
   border-radius: 0px;
-  transition: color 0.3s; /* Smooth color change on hover */
+  transition: color 0.3s;
 }
 
 .home-wrapper .custom-button:hover {
@@ -32,3 +32,63 @@
   color: #9f2f33;
 }
 
+/* Logical Responsive Breakpoints */
+@media (max-width: 1200px) {
+  .header-1 {
+    font-size: 36px; /* Adjust font size for medium screens */
+  }
+
+  .paragraph-1 {
+    font-size: 18px; /* Adjust font size for medium screens */
+  }
+
+  .home-wrapper .custom-button {
+    width: 170px; /* Adjust button width for medium screens */
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-1 {
+    font-size: 35px; /* Further adjust font size for smaller medium screens */
+  }
+
+  .paragraph-1 {
+    font-size: 18px; /* Further adjust font size for smaller medium screens */
+  }
+
+  .home-wrapper .custom-button {
+    width: 160px; /* Adjust button width for smaller medium screens */
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-1 {
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+
+  .paragraph-1 {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .home-wrapper .custom-button {
+    width: 140px; /* Adjust button width for smaller screens */
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-1 {
+    font-size: 24px; /* Further adjust font size for even smaller screens */
+  }
+
+  .paragraph-1 {
+    font-size: 14px; /* Further adjust font size for even smaller screens */
+  }
+
+  .home-wrapper .custom-button {
+    width: 130px; /* Further adjust button width for even smaller screens */
+    font-size: 12px;
+  }
+}

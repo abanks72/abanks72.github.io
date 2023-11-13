@@ -33,6 +33,9 @@ function App() {
                   <Button className='custom-button' tag={Link} to="/profile">
                     Profile
                   </Button>
+                  <Button className='custom-button' href="mailto:abanks7296@gmail.com">
+                    Contact
+                  </Button>
                 </Nav>
               </Collapse>
             </Container>
