@@ -5,7 +5,7 @@
 .header-1 {
   color: white;
   padding-top: 70px;
-  font-size: 45px;
+  font-size: 50px;
 }
 
 .paragraph-1 {
@@ -36,11 +36,11 @@
 
 @media (max-width: 768px) {
   .header-1 {
-    font-size: 30px; /* Adjust font size for smaller screens */
+    font-size: 45px; /* Adjust font size for smaller screens */
   }
 
   .paragraph-1 {
-    font-size: 16px; /* Adjust font size for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
   }
 
   .home-wrapper .custom-button {
