@@ -9,7 +9,7 @@ function Home() {
     <Container className='home-wrapper'>
       <Container>
       <h1 className='header-1'>Sincere Banks,<br></br>Full-Stack Developer</h1>
-        <p className='paragraph-1'>I'm actively seeking opportunities to collaborate with dynamic teams <br></br>and apply my full-stack expertise to create exceptional software.</p>
+        <p className='paragraph-1'>I'm actively seeking opportunities to collaborate with dynamic teams and apply my full-stack expertise to create exceptional software.</p>
         <Button className='custom-button' tag={Link} to="/portfolio">
           VIEW PORTFOLIO
         </Button>

@@ -12,6 +12,7 @@
   color: #b9b9b9;
   font-weight: 300;
   font-size: 20px;
+  width: 640px;
 }
 
 .home-wrapper .custom-button {
@@ -41,10 +42,11 @@
 
   .paragraph-1 {
     font-size: 15px; /* Adjust font size for smaller screens */
+    width: 320px;
   }
 
   .home-wrapper .custom-button {
-    width: 150px; /* Adjust button width for smaller screens */
+    width: 145px; /* Adjust button width for smaller screens */
     font-size: 13px;
   }
 }
