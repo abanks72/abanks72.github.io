@@ -1,13 +1,13 @@
 .portfolio-wrapper {
-  font-weight: 400;
   font-family: 'Ubuntu', sans-serif;
   color: white;
+  margin-top: 80px;
 }
 
 .portfolio-wrapper .custom-button {
   background: #202433;
+  color: white;
   font-weight: 300;
-  color: #b9b9b9;
   text-align: center;
   width: 200px;
   margin-top: 20px;
@@ -22,6 +22,14 @@
   color: #9f2f33;
 }
 
+.title-1 {
+  text-decoration: underline;
+}
+
+.text-1 {
+  font-size: 15px;
+}
+
 .card {
   border-radius: 0px;
   background-color: #16161d;
@@ -29,44 +37,14 @@
   margin-bottom: 50px;
 }
 
-
 /* Logical Responsive Breakpoints */
-@media (max-width: 1200px) {
-  .portfolio-wrapper .custom-button {
-    width: 180px; /* Adjust button width for medium screens */
-  }
-
-  .card {
-    margin-bottom: 40px; /* Adjust margin for medium screens */
-  }
-}
-
-@media (max-width: 992px) {
-  .portfolio-wrapper .custom-button {
-    width: 160px; /* Adjust button width for smaller medium screens */
-  }
-
-  .card {
-    margin-bottom: 30px; /* Adjust margin for smaller medium screens */
-  }
-}
 
 @media (max-width: 768px) {
   .portfolio-wrapper .custom-button {
-    width: 140px; /* Adjust button width for smaller screens */
+    width: 200px; /* Adjust button width for smaller screens */
   }
 
   .card {
-    margin-bottom: 20px; /* Adjust margin for smaller screens */
-  }
-}
-
-@media (max-width: 576px) {
-  .portfolio-wrapper .custom-button {
-    width: 120px; /* Adjust button width for even smaller screens */
-  }
-
-  .card {
-    margin-bottom: 10px; /* Adjust margin for even smaller screens */
+    margin-bottom: 40px; /* Adjust margin for smaller screens */
   }
 }

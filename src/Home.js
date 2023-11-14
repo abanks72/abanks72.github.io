@@ -7,7 +7,7 @@ import { Button, Container } from 'reactstrap';
 function Home() {
   return (
     <Container className='home-wrapper'>
-      <Container className='container-1'>
+      <Container>
       <h1 className='header-1'>Sincere Banks,<br></br>Full-Stack Developer</h1>
         <p className='paragraph-1'>I'm actively seeking opportunities to collaborate with dynamic teams <br></br>and apply my full-stack expertise to create exceptional software.</p>
         <Button className='custom-button' tag={Link} to="/portfolio">

@@ -7,6 +7,8 @@ import { Container, Navbar, Nav, Button, Row, NavbarToggler, Collapse } from 're
 import Home from './Home';
 import Profile from './Profile';
 import Portfolio from './Portfolio';
+import Sidebar from './Sidebar';
+
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,31 +19,11 @@ function App() {
 
   return (
     <Router>
-      <Container fluid className='app-wrapper'>
-        <Row className='first-row'>
-          <Navbar light expand='md'>
-            <Container>
-              <NavbarToggler onClick={toggleNavbar} style={{ borderColor: 'white' }} />
-              <Collapse isOpen={isOpen} navbar>
-                <Nav className='ml-auto' navbar>
-                  <Button className='custom-button' tag={Link} to="/">
-                    Home
-                  </Button>
-                  <Button className='custom-button' tag={Link} to="/portfolio">
-                    Portfolio
-                  </Button>
-                  <Button className='custom-button' tag={Link} to="/profile">
-                    Profile
-                  </Button>
-                  <Button className='custom-button' href="mailto:abanks7296@gmail.com">
-                    Contact
-                  </Button>
-                </Nav>
-              </Collapse>
-            </Container>
-          </Navbar>
-        </Row>
-        <Row className='second-row align-items-center'>
+      <Row className='first-row'>
+      <Sidebar />
+      </Row>
+      <Container fluid>
+        <Row className='vh-100 align-items-center app-background'>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portfolio/*" element={<Portfolio />} />

@@ -1,67 +1,42 @@
-.profile-wrapper .custom-button {
-    background: #202433;
-    color: white;
-    text-align: center;
-    width: 150px;
-    border-radius: 0px;
-    transition: color 0.3s; /* Smooth color change on hover */
-  }
-  
-.profile-wrapper .custom-button:hover {
-    background: #202433;
-    border: #9f2f33;
-    margin-top: 450px;
-    color: #9f2f33;
-  }
+.profile-wrapper {
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  margin-top: 80px;
+}
 
-.link-text {
-  color: red;
+.profile-wrapper .custom-button {
+  background: #202433;
+  color: white;
+  text-align: center;
+  width: 200px;
+  margin-top: 20px;
+  border: 2px solid #ca3435;
+  border-radius: 0px;
+  transition: color 0.3s; /* Smooth color change on hover */
+}
+
+.profile-wrapper .custom-button:hover {
+  background: #202433;
+  border: 2px solid #9f2f33;
+  color: #9f2f33;
+}
+
+.card {
+  border-radius: 0px;
+  background-color: #16161d;
+  border: 3px solid #222233;
+  margin-bottom: 50px;
+}
+
+.text-1 {
+  font-size: 15px;
 }
 
 /* Logical Responsive Breakpoints */
-@media (max-width: 1200px) {
-  .profile-wrapper .custom-button {
-    width: 120px; /* Adjust button width for medium screens */
-  }
-
-  .profile-wrapper .custom-button:hover {
-    margin-top: 400px; /* Adjust margin for medium screens */
-  }
-}
-
-@media (max-width: 992px) {
-  .profile-wrapper .custom-button {
-    width: 100px; /* Adjust button width for smaller medium screens */
-  }
-
-  .profile-wrapper .custom-button:hover {
-    margin-top: 350px; /* Adjust margin for smaller medium screens */
-  }
-}
 
 @media (max-width: 768px) {
-  .profile-wrapper .custom-button {
-    width: 80px; /* Adjust button width for smaller screens */
-  }
-
-  .profile-wrapper .custom-button:hover {
-    margin-top: 300px; /* Adjust margin for smaller screens */
-  }
-}
-
-@media (max-width: 576px) {
-  .profile-wrapper .custom-button {
-    width: 100%; /* Full width for small screens */
-    margin-top: 20px; /* Adjust margin for small screens */
-  }
-
-  .profile-wrapper .custom-button:hover {
-    margin-top: 20px; /* Adjust margin for small screens */
-  }
-}
-
-@media (max-width: 400px) {
-  .profile-wrapper .custom-button:hover {
-    margin-top: 10px; /* Further adjust margin for very small screens */
+  .portfolio-wrapper .custom-button {
+    width: 200px; /* Adjust button width for smaller screens */
   }
 }
