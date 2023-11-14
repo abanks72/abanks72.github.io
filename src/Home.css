@@ -36,11 +36,11 @@
 
 @media (max-width: 768px) {
   .header-1 {
-    font-size: 45px; /* Adjust font size for smaller screens */
+    font-size: 38px; /* Adjust font size for smaller screens */
   }
 
   .paragraph-1 {
-    font-size: 14px; /* Adjust font size for smaller screens */
+    font-size: 15px; /* Adjust font size for smaller screens */
   }
 
   .home-wrapper .custom-button {
